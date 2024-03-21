@@ -141,10 +141,6 @@ nav ul li a:hover {
   text-decoration: none
 }
 
-nav ul li a.k-nav-current {
-  border: 2px solid rgb(0, 0, 0)
-}
-
 div#outer {
   width: 100%;
   text-align: center
@@ -249,10 +245,6 @@ img.content {
   height: auto
 }
 
-img.content.lbox {
-  cursor: url(/storage/themes/chastain-d174e766-5a5f-19eb-d735-5b46ae673a6d/css/magnify.cur), -moz-zoom-in
-}
-
 div.top {
   width: 65%;
   margin: 0 auto;
@@ -275,12 +267,6 @@ div.img {
 .nav.num {
   padding: 1px 0;
   text-align: center
-}
-
-.nav.k-pagination-current {
-  text-align: center;
-  padding: 1px 6px;
-  border: 2px solid rgb(0, 0, 0)
 }
 
 span.album-top-link {
@@ -362,7 +348,6 @@ img.k-lazy-loading {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 24px 24px;
-  background-image: url(/storage/themes/chastain-d174e766-5a5f-19eb-d735-5b46ae673a6d/css/white/spinner.svg)
 }
 
 span.covers {
@@ -412,32 +397,6 @@ span.covers.n6 span.cover {
 
 span.cover img.content {
   margin: 0 auto
-}
-
-div#social-bttns {
-  margin: 30px 0 0;
-  width: 100%;
-  overflow: auto;
-  margin-top: 20px
-}
-
-div#social-bttns div.cell {
-  width: 50%;
-  float: left;
-  box-sizing: border-box
-}
-
-div#social-bttns div.cell.left {
-  padding-right: 5px
-}
-
-div#social-bttns div.cell.right {
-  padding-left: 5px
-}
-
-.social-links {
-  margin: 2em 0 0;
-  padding: 0
 }
 
 #text {
