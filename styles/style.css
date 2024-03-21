@@ -71,7 +71,9 @@ header.main {
   text-transform: uppercase;
   font-size: .9em;
   letter-spacing: 1px;
-  background: #ffffff
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
 
 header.main .inner {
