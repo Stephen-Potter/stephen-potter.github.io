@@ -245,6 +245,21 @@ img.content {
   height: auto
 }
 
+
+.fade-in-image {
+  animation: fadeIn 0.4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 div.top {
   width: 65%;
   margin: 0 auto;
