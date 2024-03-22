@@ -446,25 +446,12 @@ span.cover img.content {
 }
 
 @media only screen and (max-width:767px) {
-  header.main {
-    position: relative
-  }
-
-  header.main hgroup {
-    padding: 5px 10px
-  }
-
   div#container {
-    width: 300px;
     padding: 20px 10px
   }
 
   div.top {
     width: 100%
-  }
-
-  img.content {
-    max-height: 416px
   }
 
   span.img-wrap {
@@ -482,16 +469,6 @@ span.cover img.content {
 
   div#text {
     width: 100%
-  }
-
-  span.img-pag.left {
-    top: 0;
-    left: -30px
-  }
-
-  span.img-pag.right {
-    top: 0;
-    right: -10px
   }
 }
 
@@ -514,27 +491,7 @@ span.cover img.content {
 
 @media only screen and (min-width:480px) and (max-width:767px) {
   div#container {
-    width: 460px;
     padding: 20px 10px
-  }
-
-  img.content {
-    max-height: 268px
-  }
-
-  span.img-wrap {
-    width: 370px;
-    margin: 0 auto
-  }
-
-  span.img-pag.left {
-    top: 0;
-    left: -40px
-  }
-
-  span.img-pag.right {
-    top: 0;
-    right: -20px
   }
 }
 
