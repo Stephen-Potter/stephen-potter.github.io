@@ -7,6 +7,7 @@
   --bg-primary: #efefef;
   --bg-secondary: #ffffff;
   --bg-header: rgba(255, 255, 255, 0.85);
+  --bg-image: rgba(255, 255, 255, 0.2);
 }
 
 /* Dark mode */
@@ -19,6 +20,7 @@
     --bg-primary: #222222;
     --bg-secondary: #1e1e1e;
     --bg-header: rgba(18, 18, 18, 0.85);
+    --bg-image: rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -34,7 +36,8 @@ body {
 
 img {
   -ms-interpolation-mode: bicubic;
-  vertical-align: bottom
+  vertical-align: bottom;
+  background-color: var(--bg-image);
 }
 
 a,
